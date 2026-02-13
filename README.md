@@ -19,6 +19,30 @@ In addition to model training and evaluation, the system includes a dynamic user
 
 This project demonstrates a complete end-to-end machine learning workflow including data generation, preprocessing, model training, evaluation, model comparison, and real-time prediction.
 
+## 🖥️ Streamlit Dashboard
+
+This project includes an interactive Streamlit-based dashboard (`app.py`) that allows users to:
+
+- Select prediction model (Linear Regression / Random Forest)
+- Enter student academic details
+- Generate real-time performance prediction
+- View model evaluation metrics (MAE, RMSE)
+- Analyze feature importance visually
+
+To run the dashboard locally:
+1. Clone the repository:
+   git clone https://github.com/Indr45thiscode/student-performance-ml.git
+
+2. Navigate to the project folder:
+   cd student-performance-ml
+
+3. Install required dependencies:
+   pip install -r requirements.txt
+
+4. Run the application:
+   streamlit run app.py
+
+
 
 ## 🎯 Problem Statement
 Educational institutions often need to evaluate student performance based on various academic factors.  
