@@ -1,12 +1,24 @@
 # 🎓 Student Performance Prediction using Machine Learning
 
 ## 📌 Project Overview
-This project focuses on predicting student final scores using Machine Learning techniques.  
-The objective is to analyze student-related features and build regression models to estimate performance.
+
+This project implements a Machine Learning-based Student Performance Prediction System using regression techniques.
+The objective of the system is to analyze academic factors such as study hours, attendance percentage, assignment scores, and previous test scores to predict a student’s final performance.
+A realistic dataset of 500 records was generated using weighted relationships and controlled noise to simulate real-world academic patterns.
 
 Two regression models were implemented and compared:
-- Linear Regression
-- Random Forest Regression
+
+- Linear Regression (Baseline Model)
+- Random Forest Regression (Improved Model)
+
+Model performance was evaluated using:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+In addition to model training and evaluation, the system includes a dynamic user input feature. Users can enter student details manually, and the trained model generates real-time predictions of the final score.
+
+This project demonstrates a complete end-to-end machine learning workflow including data generation, preprocessing, model training, evaluation, model comparison, and real-time prediction.
+
 
 ## 🎯 Problem Statement
 Educational institutions often need to evaluate student performance based on various academic factors.  
@@ -56,6 +68,12 @@ The project includes a scatter plot comparing:
 
 This visualization helps in understanding model accuracy.
 
+## 🖥️ System Functionality
+
+The notebook allows users to enter student details such as study hours, attendance percentage, assignment score, and previous test score.
+
+The system then generates a predicted final score using the trained Random Forest model.
+
 ## How to Run the Project
 
 1. Clone the repository:
@@ -71,8 +89,7 @@ This visualization helps in understanding model accuracy.
 
 
 ## 📌 Conclusion
-The project successfully demonstrates the implementation of regression models for predicting student performance.  
-Model comparison shows the effectiveness of ensemble methods like Random Forest over basic regression.
+The project demonstrates a complete machine learning workflow including data generation, model training, evaluation, comparison, and real-time user-based prediction.
 
 
 ## 🔮 Future Improvements
